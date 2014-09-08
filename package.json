@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "TwitterChatter",
+  "version": "1.0.0",
+  "author": "Brian Hartvigsen <brian.andrew@brianandjenny.com>",
+  "description": "Post messages to hipchatter when we get new tweets from a user's timeline",
+  "dependencies": {
+    "hipchatter": "^0.1.3",
+    "hiredis": "^0.1.17",
+    "redis": "^0.12.1",
+    "twitter": "^0.2.9"
+  }
+}
