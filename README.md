@@ -54,7 +54,7 @@ Hostname or IP address of your Redis server</dd>
 <dd>**Default:** 6379  
 Port your Redis server is running on.</dd>
 
-**Note: ** If you do not supply `REDIS_SOCKET` or `REDIS_HOST` and `REDIS_PORT`,
+**Note:** If you do not supply `REDIS_SOCKET` or `REDIS_HOST` and `REDIS_PORT`,
 then we will attempt to connect to the default Redis configuration of localhost
 on port 6379.  `REDIS_SOCKET` takes precedence.
 
