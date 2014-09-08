@@ -35,7 +35,7 @@ redis.get('tweetchat::' + process.env.TWITTER_HANDLE, function (err, last_id) {
 			if (tweets.length) {
 				console.log('we have data', tweets)
 				hipchat.notify(process.env.HIPCHAT_ROOM, {
-					message: 'https://twitter.com/' + process.env.TWITTER_HANDLE + ' /status/' + tweets[0].id_str,
+					message: 'https://twitter.com/' + process.env.TWITTER_HANDLE + '/status/' + tweets[0].id_str,
 					token: process.env.HIPCHAT_TOKEN,
 					notify: process.env.HIPCHAT_NOTIFY == 'false' ? false : true,
 					message_format: 'text'
